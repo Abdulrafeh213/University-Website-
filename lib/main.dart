@@ -17,12 +17,7 @@ void main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
         options: const FirebaseOptions(
-            apiKey: "",
-            authDomain: "semesterfinalproject-d8e0e.firebaseapp.com",
-            projectId: "semesterfinalproject-d8e0e",
-            storageBucket: "semesterfinalproject-d8e0e.appspot.com",
-            messagingSenderId: "407311858513",
-            appId: "1:407311858513:web:53cda03a01828076c3f170"));
+            ));
   } else {
     Firebase.initializeApp();
   }
