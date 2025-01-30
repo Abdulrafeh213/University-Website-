@@ -17,7 +17,7 @@ void main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
         options: const FirebaseOptions(
-            apiKey: "AIzaSyBkco0jO__qJP672j3eHsBh22wto5JGq0I",
+            apiKey: "",
             authDomain: "semesterfinalproject-d8e0e.firebaseapp.com",
             projectId: "semesterfinalproject-d8e0e",
             storageBucket: "semesterfinalproject-d8e0e.appspot.com",
